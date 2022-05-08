@@ -1,4 +1,4 @@
-# github-search
+# DD2477 GitHub search project
 
 Install elasticsearch 8.1.2 locally, 
 
