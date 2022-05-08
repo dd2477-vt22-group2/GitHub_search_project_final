@@ -21,20 +21,21 @@ Shut down elasticsearch, open config/elasticsearch.yml and change the following 
 http.max_content_length: 500mb
 ```
     
-To index into elasticsearch, 
+To index into elasticsearch, open the Indexer folder (pycharm recommended)
 
 put the crawled java files (https://drive.google.com/file/d/1y142CsI5SsYZGy3T7nffUlf6kVrjPx8c/view?usp=sharing) to index into the directory,
 
 keep elasticsearch running,
 
-install the necessary python dependencies and run in command line
+install the necessary python dependencies in requirements.txt and run in command line
 
 `python3 es_utils.py`
 
 
-3. **compile and run**
+3. **compile and run the interface**
+To run the user interface, open the interface folder (intellij required, for iml-styled java dependencies).
 
-Before running the interface, please make sure that the whole Java code dataset is in a local folder named "java_files"
+Before running the interface, please make sure that the whole Java code dataset is in a local folder named "java_files", and keep elasticsearch running.
 
 The dataset we crawled can be downloaded here: https://drive.google.com/file/d/1y142CsI5SsYZGy3T7nffUlf6kVrjPx8c/view?usp=sharing
 
