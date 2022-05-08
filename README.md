@@ -33,6 +33,7 @@ install the necessary python dependencies in requirements.txt and run in command
 
 
 3. **compile and run the interface**
+
 To run the user interface, open the interface folder (intellij required, for iml-styled java dependencies).
 
 Before running the interface, please make sure that the whole Java code dataset is in a local folder named "java_files", and keep elasticsearch running.
