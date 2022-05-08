@@ -31,10 +31,43 @@ install the necessary python dependencies and run in command line
 
 `python3 es_utils.py`
 
-To run the evaluation, 
 
-put the text files in ./to_evaluate,
+3. **compile and run**
+
+Before running the interface, please make sure that the whole Java code dataset is in a local folder named "java_files"
+
+The dataset we crawled can be downloaded here: https://drive.google.com/file/d/1y142CsI5SsYZGy3T7nffUlf6kVrjPx8c/view?usp=sharing
+
+Please download and unzip it
+
+The java interface of the search engine should be compiled by (on Windows):
+
+`compile_all.bat`
+
+and then run by:
+
+`run_search_engine.bat`
+
+4. others
+
+To run the evaluator, put the text files in ./to_evaluate, each line contains one file and its score, seperated by a space, like:
+
+```
+file1.java 0
+file2.java 3
+file3.java 2
+```
 
 and run in command line
 
 `python3 evaluator.py`
+
+To run the crawler, simply:
+
+`python3 clean_crawler.py`
+
+But you need to change the number of crawled files and its corresponding page/id on your own
+
+And the token used in the crawler has expired, please follow the comments in the crawler file to get your own token
+
+Without a valid token, some requests might be refused
