@@ -1,5 +1,5 @@
 javalang~=0.13.0
 elasticsearch==8.1.2
-requests_aws4auth
+requests
 matplotlib==3.5.1
 numpy
