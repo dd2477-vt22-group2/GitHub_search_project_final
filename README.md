@@ -23,7 +23,7 @@ http.max_content_length: 500mb
     
 To index into elasticsearch, 
 
-put the crawled java files (https://drive.google.com/file/d/1y142CsI5SsYZGy3T7nffUlf6kVrjPx8c/view?usp=sharing) to index into the directory
+put the crawled java files (https://drive.google.com/file/d/1y142CsI5SsYZGy3T7nffUlf6kVrjPx8c/view?usp=sharing) to index into the directory,
 
 keep elasticsearch running,
 
@@ -50,7 +50,7 @@ and then run by:
 
 4. others
 
-To run the evaluator, put the text files in ./to_evaluate, each line contains one file and its score, seperated by a space, like:
+To run the evaluator, put the manually rating txt files in ./to_evaluate, with a format of each line containing one file and its score, seperated by a space, like:
 
 ```
 file1.java 0
