@@ -23,7 +23,7 @@ http.max_content_length: 500mb
     
 To index into elasticsearch, 
 
-put the java files to index into the directory
+put the crawled java files (https://drive.google.com/file/d/1y142CsI5SsYZGy3T7nffUlf6kVrjPx8c/view?usp=sharing) to index into the directory
 
 keep elasticsearch running,
 
