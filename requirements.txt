@@ -1,4 +1,0 @@
-javalang~=0.13.0
-elasticsearch==8.1.2
-requests_aws4auth
-matplotlib==3.5.1
